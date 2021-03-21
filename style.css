@@ -62,6 +62,7 @@ body {
   }
   
   .boxes {
+    display: flex;
     color: blue;
     background-color: #bddbe7;
     width: 40%;
@@ -74,14 +75,14 @@ body {
   }
   
   .box2 p {
+    
     color: blue;
   }
-  
-  .box3 p {
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
+  .box2{
+      display: flex;
+      
   }
+
   
   .boxes-right p {
     font-size: 12px;
